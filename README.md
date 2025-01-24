@@ -47,9 +47,10 @@ conda create -n ngs-env -c bioconda -c conda-forge \
     fastqc multiqc samtools minimap2 qualimap star bcftools gffread
 conda activate ngs-env
 ```
-# Then in R:
-#  install.packages("BiocManager")
-#  BiocManager::install(c("edgeR","limma","pheatmap","VennDiagram","mixOmics"))
+
+Then in R:
+  install.packages("BiocManager")
+  BiocManager::install(c("edgeR","limma","pheatmap","VennDiagram","mixOmics"))
 
 ## Usage Summary
 
